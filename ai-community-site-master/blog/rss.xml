@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>AI for All Blog</title>
+        <link>https://ai.uhg.com/blog</link>
+        <description>AI for All Blog</description>
+        <lastBuildDate>Mon, 01 Mar 2021 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[UHG Clinical Pretrained Language Models]]></title>
+            <link>https://ai.uhg.com/blog/atc-clinical-bert</link>
+            <guid>atc-clinical-bert</guid>
+            <pubDate>Mon, 01 Mar 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Deep learning has enabled significant improvements in NLP (Natural Language Processing) throughout the last year. Transformer  based pretrained models are one of the main reasons behind this revolution in the field of NLP. These new language models can be trained on vast amounts of unlabeled data. The models have shown to learn various syntactic and semantic dependencies between words and phrases that were previously hard to capture. BERT  (Bidirectional Encoder Representations for Transformers) based models have outperformed humans on GLUE  benchmark NLP tasks and have achieved state-of-the-art results on summarization, machine translation, and question answering.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Hierarchical Cluster Analysis for Claims Remediation]]></title>
+            <link>https://ai.uhg.com/blog/hierarchal-cluster-Analysis</link>
+            <guid>hierarchal-cluster-Analysis</guid>
+            <pubDate>Wed, 27 Jan 2021 06:00:00 GMT</pubDate>
+            <description><![CDATA[At UnitedHealthcare there are teams of claims analysts who's job it is to]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Synthetic Health Care Data: Applying the Generation and Certification Frameworks]]></title>
+            <link>https://ai.uhg.com/blog/synthetic-health-care-data-III</link>
+            <guid>synthetic-health-care-data-III</guid>
+            <pubDate>Tue, 19 Jan 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[In this third and final post in the blog series on synthetic health care data, you will see a walkthrough of code samples on how to implement the framework described in the part II blog.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[What is ethical AI and should we be talking about it more?]]></title>
+            <link>https://ai.uhg.com/blog/ethical-ai</link>
+            <guid>ethical-ai</guid>
+            <pubDate>Thu, 14 Jan 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[What is “ethical AI”?  Honestly, it is a topic that I hadn’t thought much about until I watched a docudrama on Netflix called “The Social Dilemma.”  The film demonstrated the potential harms that algorithms could have on people’s lives (mostly in regard to social media).  It got me thinking about the implications of AI in healthcare and how ethics fit in.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Synthetic Health Care Data: Generation Frameworks]]></title>
+            <link>https://ai.uhg.com/blog/synthetic-health-care-data-partII</link>
+            <guid>synthetic-health-care-data-partII</guid>
+            <pubDate>Tue, 01 Dec 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Following up my initial blog post on Synthetic Healthcare Data, in part II of this blog series I will describe frameworks to be leveraged for the generation of tabular data based on deep learning and for synthetic data certification based on similarity measures.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[What is AI?]]></title>
+            <link>https://ai.uhg.com/blog/defining-ai</link>
+            <guid>defining-ai</guid>
+            <pubDate>Wed, 18 Nov 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[ARTIFICIAL INTELLIGENCE was coined in a summer workshop in 1956 at Dartmouth College in New Hampshire, an effort to duplicate in an artifact what we as people consider are most defining attribute, human intelligence.  The Dartmouth Summer Research Project on Artificial Intelligence was a seminal event for artificial intelligence as a field.  The founding fathers in the mid 1950s understood the power of neural networks and natural language processing but the necessary technology making the ambitions come to life would be a future innovation.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Synthetic Health Care Data: An Introduction]]></title>
+            <link>https://ai.uhg.com/blog/synthetic-health-care-data</link>
+            <guid>synthetic-health-care-data</guid>
+            <pubDate>Mon, 09 Nov 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[In the recently published book "State of Healthcare Technology" by Optum in partnership with O'Reilly, the  experts have recognized  Deep Learning is one of the technology with the power to transform the healthcare industry. As we move forward, I'll be deep diving into the deep learning approaches in healthcare to help understand the various use cases, the industry trends and the challenges, starting off with Synthetic data for healthcare.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Canary Deployments with AzureML and Azure Kubernetes Service]]></title>
+            <link>https://ai.uhg.com/blog/canary-deployments</link>
+            <guid>canary-deployments</guid>
+            <pubDate>Tue, 03 Nov 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[_Co-authored by Danny Sievers_]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Create Labeled Datasets with AzureML Pipelines]]></title>
+            <link>https://ai.uhg.com/blog/labeled-datasets</link>
+            <guid>labeled-datasets</guid>
+            <pubDate>Wed, 19 Aug 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[_Co-authored by Max Marchionda_]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Data Preprocessing and XGBoost Model Training on GPU with AzureML Pipelines]]></title>
+            <link>https://ai.uhg.com/blog/xgb-pipeline</link>
+            <guid>xgb-pipeline</guid>
+            <pubDate>Tue, 28 Jul 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[_Co-authored by Max Marchionda_]]></description>
+        </item>
+    </channel>
+</rss>

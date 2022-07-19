@@ -1,0 +1,35 @@
+pipeline {
+  agent { label 'docker-kitchensink-slave' }
+  options {
+    buildDiscarder(logRotator(numToKeepStr: '5'))
+    timeout(time: 1, unit: 'DAYS')
+  }
+  environment {
+    NPM_EMAIL = ''
+    NPM_AUTH_KEY = ''
+    NODEJS_VERSION = '12'
+    CREDENTIALS_ID = 'mkdocs'
+    ORG = 'ai-community'
+    REPO = 'ai-community-website'
+  }
+  stages {
+    stage('Build & Redeploy') {
+      when { branch 'master' }
+      steps {
+        withCredentials([usernamePassword(credentialsId: CREDENTIALS_ID, usernameVariable: 'USER', passwordVariable: 'PASS')]) {
+          sh """#!/bin/bash -x
+            . /etc/profile.d/jenkins.sh
+            yarn config set registry https://repo1.uhc.com/artifactory/api/npm/npm-virtual/
+            yarn
+            git remote set-url origin https://${USER}:${PASS}@github.optum.com/${ORG}/${REPO}.git
+            git config --global user.email "mkdocs@optum.com"
+            git config --global user.name ${USER}
+            export GIT_USER=${USER}:${PASS}
+            export GITHUB_HOST=github.optum.com
+            yarn deploy
+          """
+        }
+      }
+    }
+  }
+}
